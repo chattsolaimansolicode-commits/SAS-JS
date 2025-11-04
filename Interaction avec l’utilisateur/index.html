@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interaction avec l'utilisateur</title>
+  </head>
+  <body>
+    <h1>Bienvenue !</h1>
+    <button id="btn">Personnaliser le message</button>
+    <script>
+      let btn = document.getElementById("btn");
+      let mssag = document.querySelector("h1");
+
+      btn.addEventListener("click", function () {
+        let nom = prompt("what ur name");
+        if (nom) {
+          mssag.innerText = "Hey, " + nom + "!";
+        } else {
+          mssag.innerText = "Try Writing Somthing";
+        }
+      });
+    </script>
+  </body>
+</html>
