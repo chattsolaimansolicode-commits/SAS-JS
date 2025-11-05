@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> les taches</title>
+    <style>
+        /* Style de la liste */
+        ul {
+            list-style: none; 
+            padding: 0;
+            font-size: 20px;
+        }
+
+        /* Style pour tous les elements de la liste */
+        ul li {
+            color: red; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+      
+        body {
+            background-color: white; 
+        }
+
+        
+        header {
+            font-size: 24px;
+            font-weight: bold;
+            color: red;
+            margin-bottom: 15px;
+        }
+
+        /* Style  du bouton */
+        input, button {
+            font-size: 18px;
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        /* Bouton */
+        button {
+            background-color: red; 
+            color: white; /
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        
+        button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<b
+    <header>
+         Liste de Tâches
+    </header>
+
+    <!-- Contenu  -->
+    <main>
+        <!-- Champ pour ecrire -->
+        <input type="text" id="todoinput" placeholder="Ajouter une tâche" required>
+        
+        <!-- Bouton  -->
+        <button id="add">Ajouter</button>
+
+        <!-- Liste  -->
+        <ul id="todolist"></ul>
+    </main>
+
+    <!-- Lien  -->
+   <script src="script.js"></script>
+</body>
+</html>
