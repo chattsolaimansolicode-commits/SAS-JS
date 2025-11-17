@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef1f5;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 50px;
+  gap: 10px;
+  padding: 2px;
+  border: 1px solid #d3d7dd;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Delete button */
+.btn-supprimer {
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b5998;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #2980b9;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b5998;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
